@@ -1,8 +1,3 @@
-/*
- * Copyright © Ergonode Sp. z o.o. All rights reserved.
- * See LICENSE for license details.
- */
-
 module.exports = {
     env: {
         browser: true,
@@ -38,16 +33,6 @@ module.exports = {
             },
             {
                 usePrettierrc: false,
-            },
-        ],
-        'notice/notice': [
-            'error',
-            {
-                templateFile: './config/.copyright',
-                messages: {
-                    whenFailedToMatch:
-                        "Couldn't find 'License Header', are you sure you added it?",
-                },
             },
         ],
         indent: ['error', 4],

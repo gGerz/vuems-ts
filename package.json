@@ -1,6 +1,6 @@
 {
   "name": "@ggerz/vuems-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple mechanism to transform a monolithic Vue application into an application based on Micro Services architecture with Typescript support",
   "author": "gGerz",
   "license": "OSL-3.0",

@@ -1,8 +1,3 @@
-/*
- * Copyright © Ergonode Sp. z o.o. All rights reserved.
- * See LICENSE for license details.
- */
-
 import { existsSync, ensureDir } from 'fs-extra';
 import { log } from '../helpers/log';
 import { prepareSymlinks } from '../helpers/tools';
