@@ -104,8 +104,8 @@ async function setPlugins(configurations, { allModules }) {
                     ).replace(/\/$/g, '');
 
                     return this.addPlugin({
-                        src: `${pluginPath}.js`,
-                        fileName: join('modules', moduleName, `${src}.js`),
+                        src: `${pluginPath}.ts`,
+                        fileName: join('modules', moduleName, `${src}.ts`),
                         options: {
                             mode: ssr ? 'server' : 'client',
                         },

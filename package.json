@@ -1,16 +1,16 @@
 {
-  "name": "@ergonode/vuems",
-  "version": "1.1.0",
-  "description": "A simple mechanism to transform a monolithic Vue application into an application based on Micro Services architecture.",
-  "author": "Bletek Piotr <p.bletek@gmail.com>",
+  "name": "@ggerz/vuems-ts",
+  "version": "1.0.0",
+  "description": "A simple mechanism to transform a monolithic Vue application into an application based on Micro Services architecture with Typescript support",
+  "author": "gGerz",
   "license": "OSL-3.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ergonode/vuems.git"
+    "url": "git://github.com/gGerz/vuems-ts.git"
   },
-  "homepage": "https://github.com/ergonode/vuems",
+  "homepage": "https://github.com/gGerz/vuems-ts",
   "bugs": {
-    "url": "https://github.com/ergonode/vuems/issues"
+    "url": "https://github.com/gGerz/vuems-ts/issues"
   },
   "publishConfig": {
     "access": "public",

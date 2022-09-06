@@ -24,7 +24,7 @@ async function registerRouter({ allModules, directories }) {
         findPaths({
             modules: allModules,
             suffix: configDir,
-            regExp: /routes\.js/,
+            regExp: /routes\.ts/,
         }),
     );
 
@@ -53,7 +53,7 @@ async function registerExtends({ allModules, directories }) {
         findPaths({
             modules: allModules,
             suffix: configDir,
-            regExp: /extends\.js/,
+            regExp: /extends\.ts/,
         }),
     );
 
@@ -86,7 +86,7 @@ async function registerMiddleware({ allModules, directories }) {
         findPaths({
             modules: allModules,
             suffix: middlewareDir,
-            regExp: /\.global\.js/,
+            regExp: /\.global\.ts/,
         }),
     );
 
@@ -115,7 +115,7 @@ async function registerStore({ allModules, directories }) {
         findPaths({
             modules: allModules,
             suffix: storeDir,
-            regExp: /index\.js/,
+            regExp: /index\.ts/,
         }),
     );
 

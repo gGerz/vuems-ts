@@ -109,7 +109,7 @@ export function flattenDeep(arr) {
 export async function getModulesConfig({ allModules, directories, verbose }) {
     const configDir = directories.config || DIRECTORIES.config;
     const configs = await Promise.all(
-        getConfigs({ modules: allModules, suffix: `${configDir}/index.js` }),
+        getConfigs({ modules: allModules, suffix: `${configDir}/index.ts` }),
     ).then((config) => {
         if (verbose) {
             success('Modules configurations loaded');
